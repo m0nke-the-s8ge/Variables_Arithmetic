@@ -1,0 +1,12 @@
+float gasVolume
+float oilVolume
+float mixRatio
+
+gasVolume = 10.5
+oilVolume = 0
+
+mixRatio = gasVolume / oilVolume
+
+Put "Gas to oil mix ratio is " to output
+Put mixRatio to output
+Put ":1\n" to output

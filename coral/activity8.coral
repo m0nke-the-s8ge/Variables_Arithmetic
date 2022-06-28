@@ -1,0 +1,9 @@
+float milesTraveled 
+float hoursToDrive
+
+milesTraveled = 113.5
+
+// Car drives 60 MPH
+hoursToDrive = milesTraveled / 60.0
+
+Put hoursToDrive to output with 1 decimal places

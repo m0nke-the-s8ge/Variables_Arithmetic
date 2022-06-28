@@ -1,0 +1,22 @@
+integer userAgeYears
+integer userAgeDays
+integer userAgeMinutes
+
+// Get userAgeYears from input
+userAgeYears = 19
+
+// Calculate days w/o leap years
+userAgeDays = userAgeYears * 365
+
+// Add days for leap years
+userAgeDays = userAgeDays + (userAgeYears / 4)
+
+Put "You are " to output
+Put userAgeDays to output
+Put " days old.\n" to output
+
+// 24 hours/day, 60 minutes/hour
+userAgeMinutes = userAgeDays * 24 * 60
+Put "You are " to output
+Put userAgeMinutes to output
+Put " minutes old.\n" to output

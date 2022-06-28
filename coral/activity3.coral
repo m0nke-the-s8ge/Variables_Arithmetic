@@ -1,0 +1,10 @@
+integer userAgeYears
+integer userAgeDays
+
+userAgeYears = Get next input
+
+userAgeDays = userAgeYears * 365
+
+Put "You are" to output
+Put userAgeDays to output
+Put "day old.\n" to output
